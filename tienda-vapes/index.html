@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tienda de Vapes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gt">
+  <div>
+    <h2 id="gt">¿Eres mayor de 18 años?</h2>
+    <p id="gp">Esta tienda vende productos con nicotina, solo para mayores de edad.</p>
+    <div class="btns"><button class="yes" id="g-yes">Sí, tengo 18 o más</button><button class="no" id="g-no">No</button></div>
+  </div>
+</div>
+
+<header class="top">
+  <div class="wrap">
+    <div class="logo" id="logo">Nube<b>.</b></div>
+    <nav>
+      <a href="#v70k">Double 70K</a><a href="#v50k">Icon 50K</a><a href="#v20k">Pod 20K</a>
+    </nav>
+  </div>
+</header>
+
+<section class="band hero">
+  <div class="wrap">
+    <h1>Elegí tu sabor y pedí por WhatsApp</h1>
+    <p>Tocá un sabor, agregalo al pedido y envialo. Te confirmamos disponibilidad y entrega al instante.</p>
+    <div class="shelf" id="shelf"></div>
+    <div class="how"><span><b>1.</b> Elegí modelo y sabor</span><span><b>2.</b> Revisá tu pedido</span><span><b>3.</b> Envialo por WhatsApp</span></div>
+  </div>
+</section>
+
+<main id="lines"></main>
+
+<footer class="band"><div class="wrap"><span>Venta solo a mayores de 18 años.</span><span id="ft"></span></div></footer>
+
+<div class="bar"><div class="wrap">
+  <div class="sum"><span id="b-n">Tu pedido está vacío</span><b id="b-t">0 Bs</b></div>
+  <button class="go" id="open" disabled>Ver pedido</button>
+</div></div>
+
+<div class="sheet" id="sheet">
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="ph">
+    <h3><span id="ph">Tu pedido</span><button class="x" id="close" aria-label="Cerrar">×</button></h3>
+    <ul class="items" id="items"></ul>
+    <div class="total"><span>Total</span><span id="tot">0 Bs</span></div>
+    <form id="f">
+      <label for="c-name">Tu nombre</label>
+      <input id="c-name" autocomplete="name" placeholder="Ej. Juan Pérez">
+      <div class="row2">
+        <div><label for="c-del">Entrega</label>
+          <select id="c-del"><option>Delivery</option><option>Recojo en punto de encuentro</option></select></div>
+        <div><label for="c-pay">Pago</label>
+          <select id="c-pay"><option>QR</option><option>Efectivo</option><option>Transferencia</option></select></div>
+      </div>
+      <label for="c-addr">Zona o dirección</label>
+      <input id="c-addr" autocomplete="street-address" placeholder="Ej. 3er anillo, cerca de…">
+    </form>
+    <a class="wa" id="wa" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>
+    <button class="copy" id="copy" type="button">Copiar pedido</button>
+    <p class="hint" id="hint"></p>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+FOTOS DE LOS PRODUCTOS
+======================
+Poné tus fotos en esta carpeta con estos nombres exactos (en minúsculas, guiones en vez de espacios).
+Si falta una foto, la tienda muestra el ícono dibujado, así que podés ir agregándolas de a poco.
+Mejor si son PNG con fondo transparente, verticales (aprox. 600x1200 px).
+
+Foto general de cada modelo (portada y respaldo):
+  img/70k.png   (Waka Double 70K)
+  img/50k.png   (Waka Icon 50K)
+  img/20k.png   (Pod 20K)
+
+Sabores de Waka Double 70K:
+  img/70k/blueberry.png
+  img/70k/cherry-bomb.png
+  img/70k/coconut-water.png
+  img/70k/mix-berries.png
+  img/70k/passion-fruit.png
+  img/70k/strawberry-watermelon.png
+  img/70k/watermelon.png
+
+Sabores de Waka Icon 50K:
+  img/50k/blueberry-mint.png
+  img/50k/bubbaloo-grape.png
+  img/50k/cherry-bomb.png
+  img/50k/cherry-watermelon.png
+  img/50k/grape-strawberry.png
+  img/50k/icy-coconut-water.png
+  img/50k/kiwi-dragon-berry.png
+  img/50k/pineapple.png
+  img/50k/strawberry-watermelon.png
+  img/50k/watermelon-ice.png
+
+Sabores de Pod 20K:
+  img/20k/grape-ice.png
+  img/20k/icy-mint.png
+  img/20k/passion-guava.png
+  img/20k/st-grape.png
+  img/20k/st-kiwi.png
+  img/20k/watermelon-ice.png
+  img/20k/bateria.png   (batería sola)
