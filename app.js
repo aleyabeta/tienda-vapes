@@ -1,7 +1,7 @@
 {
 /* ====== CONFIGURACIÓN: cambiá estos datos ====== */
-const STORE = 'Nube';
-const WHATSAPP = '59170000000'; // tu número con código de país, sin + ni espacios
+const STORE = 'Vapes';
+const WHATSAPP = '5917393570'; // tu número con código de país, sin + ni espacios
 const LINES = [
   {id:'70k', name:'Waka Double 70K', kind:'double', sub:'Hasta 70.000 caladas · pantalla', price:245, flavors:[
     ['Blueberry',4],['Cherry Bomb',10],['Coconut Water',10],['Mix Berries',8],['Passion Fruit',8],['Strawberry Watermelon',10],['Watermelon',3]]},
